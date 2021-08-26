@@ -32,7 +32,7 @@
     {
       "name": "firebase-posts",
       "urls": [
-        "https://angular-blog-e513b.firebaseio.com/**"
+        "https://pig-steam-default-rtdb.europe-west1.firebasedatabase.app/**"
       ],
       "cacheConfig": {
         "maxSize": 5,
