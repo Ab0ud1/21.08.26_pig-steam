@@ -24,6 +24,15 @@ body {
   color: #333;
 }
 
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+.d-flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
 a {
   color: var(--primary-color);
   cursor: pointer;
@@ -40,6 +49,10 @@ ul {
 
 img {
   width: 100%;
+}
+
+.main-img {
+  height: 32px;
 }
 
 .container {
@@ -269,6 +282,7 @@ table th {
   width: 100%;
   opacity: 0.9;
   margin-bottom: 1rem;
+  background: var(--primary-color);
 
   &.main {
     justify-content: center;

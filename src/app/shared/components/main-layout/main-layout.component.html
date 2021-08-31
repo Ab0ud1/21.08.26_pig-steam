@@ -1,7 +1,18 @@
 <nav class="navbar main">
-  <h1>PigSteam</h1>
+    <div class="d-flex">
+        <img src="assets/icons/pignose.svg" alt="pignose" class="main-img">
+        <h1>Steam</h1>
+    </div>
+    <ul>
+        <li routerLinkActive="active">
+            <a [routerLink]="['/user']">User</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="['/admin']">Admin</a>
+        </li>
+    </ul>
 </nav>
 
 <div class="container">
-  <router-outlet></router-outlet>
+    <router-outlet></router-outlet>
 </div>
