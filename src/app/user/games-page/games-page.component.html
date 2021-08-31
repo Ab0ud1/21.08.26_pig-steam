@@ -1,6 +1,6 @@
 <div *ngIf="posts.length; else loading">
   <div class="form-control">
-    <input type="text" placeholder="Найти пост..." [(ngModel)]="searchStr">
+    <input type="text" placeholder="Find a game..." [(ngModel)]="searchStr">
   </div>
   <table>
     <thead>
@@ -19,12 +19,13 @@
       <td>{{ post.title }}</td>
       <td>{{ post.date | date:'medium'}}</td>
       <td>
-        <button
-          class="btn btn-link open"
-          [routerLink]="['/admin', 'post', post.id, 'edit']"
-        >
-          Open
-        </button>
+<!--         TODO: fix it before prod build-->
+<!--        <button-->
+<!--          class="btn btn-link open"-->
+<!--          [routerLink]="['/user', 'post', post.id]"-->
+<!--        >-->
+<!--          Open-->
+<!--        </button>-->
         <a (click)="remove(post.id)">Delete</a>
       </td>
     </tr>

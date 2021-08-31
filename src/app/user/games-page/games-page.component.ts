@@ -7,10 +7,10 @@ import {AlertService} from '../shared/services/alert.service';
 
 @Component({
   selector: 'app-dashboard-page',
-  templateUrl: './dashboard-page.component.html',
-  styleUrls: ['./dashboard-page.component.scss']
+  templateUrl: './games-page.component.html',
+  styleUrls: ['./games-page.component.scss']
 })
-export class DashboardPageComponent implements OnInit, OnDestroy {
+export class GamesPageComponent implements OnInit, OnDestroy {
 
   posts: Post[] = [];
   pSub: Subscription;

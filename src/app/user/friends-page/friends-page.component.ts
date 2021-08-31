@@ -7,10 +7,10 @@ import {AlertService} from '../shared/services/alert.service';
 
 @Component({
   selector: 'app-create-page',
-  templateUrl: './create-page.component.html',
-  styleUrls: ['./create-page.component.scss']
+  templateUrl: './friends-page.component.html',
+  styleUrls: ['./friends.component.scss']
 })
-export class CreatePageComponent implements OnInit {
+export class FriendsPageComponent implements OnInit {
 
   form: FormGroup;
 
