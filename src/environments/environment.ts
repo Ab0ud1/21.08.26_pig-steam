@@ -17,4 +17,4 @@ export const environment: Environment = {
   apiKey: 'AIzaSyD7YtlHlTpXwp2kkudRuSSuq1l4ialu72I',
   fbDbUrl: 'https://pig-steam-default-rtdb.europe-west1.firebasedatabase.app'
 };
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
