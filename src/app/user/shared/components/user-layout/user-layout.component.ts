@@ -13,8 +13,7 @@ export class UserLayoutComponent implements OnInit {
   constructor(
     private router: Router,
     public auth: AuthService
-  ) {
-  }
+  ) {}
 
   ngOnInit() {
   }
@@ -22,6 +21,6 @@ export class UserLayoutComponent implements OnInit {
   logout(event: Event) {
     event.preventDefault();
     this.auth.logout();
-    this.router.navigate(['/admin', 'login']);
+    this.router.navigate(['/user', 'login']);
   }
 }
